@@ -1,9 +1,5 @@
-def rescue_princess_peach
-  status = "rescued"
-  puts "Hooray! Mario has rescued Princess Peach."
-end
+defined rescue_princess_peach
+it "outputs a message and sets a variable, status, that is not avaiable outside of this method." do
 
-## Comment the below back in to see method scope in action!
+end 
 
-# rescue_princess_peach
-# puts status
